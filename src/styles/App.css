@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* container */
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.left_section {
+  width: 100%;
+  height: 100vh;
+  padding: 2em;
+}
+
+.left_section .header {
+  color: #000;
+  font-size: 31.52px;
+  font-weight: 500;
+  letter-spacing: 0.63px;
+}
+
+.create_btn {
+  width: 326px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 37.318px;
+  background: #000;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  margin: 1em 0;
+}
+
+.group_list {
+  display: flex;
+  flex-direction: column;
+}
+
+.group_list .group {
+  width: 411px;
+  height: 98px;
+  flex-shrink: 0;
+  font-size: 20.67px;
+  border-radius: 32px 0px 0px 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 1em;
+  padding: 0.5em;
+}
+
+.group .avatar {
+  width: 62.015px;
+  height: 62.015px;
+  flex-shrink: 0;
+  font-size: 24.115px;
+  background: #000;
+  border-radius: 50px;
+  display: grid;
+  place-items: center;
+  color: #fff;
+}
+
+.active {
+  background: #f7ecdc;
+}
+
+/* right section */
+
+.right_section {
+  width: 100%;
+  height: 100vh;
+  background: #f7ecdc;
+  display: none;
+}
+
+.input_box {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 130px;
+  flex-shrink: 0;
+  background: #e8e8e8;
+  padding: 1em;
+}
+
+.input_box textarea {
+  width: 100%;
+  height: 100%;
+  padding: 1em 2em;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+}
+
+.input_box .send_btn {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 2em;
+  right: 2em;
+  background: #fff;
+  display: grid;
+  place-items: center;
+}
